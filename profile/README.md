@@ -27,13 +27,69 @@ Governify has multiple sites:
 
 Repositories in this organization are structured as follows:
 
+
+<details>
+  <summary>🌐 Webs</summary><br/>
+  <div><samp><ul>
+    <li><a href=https://github.com/governify/governify-web>Governify Web</a>: Landing page deployed at <a href=https://governify.io>governify.io</a></li>
+    <li><a href=https://github.com/governify/governify-docs>Governify Docs</a>: General documentation site of Governify Ecosystem.
+    <li><a href=https://github.com/governify/bluejay-docs>Bluejay Docs</a>: Bluejay documentation site.
+    <li><a href=https://github.com/governify/falcon-docs>Bluejay Docs</a>: Falcon documentation site.
+  </ul></samp></div>
+</details>
+
 <details>
   <summary>🧱 Infrastructures</summary><br/>
-  <div>
-    <samp>
-      <ul>
-        <li><a href=https://github.com/governify/bluejay-infrastructure>Bluejay Infrastructure</a></li>
-      </ul>
-    </samp>
-  </div>
+  <div><samp><ul>
+    <li><a href=https://github.com/governify/bluejay-infrastructure>Bluejay Infrastructure</a>: Repository for deploying Bluejay Infrastructure</li>
+    <li><a href=https://github.com/governify/falcon-infrastructure>Falcon Infrastructure</a>: Repository for deploying Falcon Infrastructure</li>
+    <li><a href=https://github.com/governify/helm-charts>Helm Charts</a>: Repository containing the charts for Kubernetes deployment</li>
+  </ul></samp></div>
+</details>
+
+<details>
+  <summary>📁Static Assets</summary><br/>
+  <div><samp><ul>
+    <li><a href=https://github.com/governify/assets-bluejay>Bluejay Assets</a>: Static files for Bluejay, loaded by Assets Manager</li>
+    <li><a href=https://github.com/governify/assets-falcon>Falcon Assets</a>: Static files for Falcon, loaded by Assets Manager</li>
+  </ul></samp></div>
+</details>
+
+<details>
+  <summary>⚙ Services</summary><br/>
+  <div><samp><ul>
+    <li><a href=https://github.com/governify/nginx-streamer>Nginx Streamer</a>: Main reverse proxy for the Governify Ecosystem.</li>
+    <li><a href=https://github.com/governify/collector-events>Collector Events</a>: Events collector for gathering data from multiple sources (GH, PT, etc.).</li>
+    <li><a href=https://github.com/governify/collector-dynamic>Collector Dynamic</a>: Collector service for dynamic API fetching and data processing.</li>
+    <li><a href=https://github.com/governify/reporter>Reporter</a>: Reporter service of the Governify Ecosystem.</li>
+    <li><a href=https://github.com/governify/registry>Registry</a>: Registry service of the Governify Ecosystem for managing SLAs.</li>
+    <li><a href=https://github.com/governify/join-bluejay>Join</a>: Bluejay Join service for registering teams in the system.</li>
+    <li><a href=https://github.com/governify/assets-manager>Assets Manager</a>: Manager of the static files of each infrastructure.</li>
+    <li><a href=https://github.com/governify/render>Render</a>: Renderizer service to display static views retrieved from static assets.</li>
+    <li><a href=https://github.com/governify/director>Director</a>: Periodic task executor service.</li>
+    <li><a href=https://github.com/governify/scope-manager>Scope Manager</a>: Service to manage different scopes concerning SLAs.</li>
+    <li><a href=https://github.com/governify/dashboard>Dashboard</a>: Dashboard service to render JSON/JS dashboard files from static assets.</li>
+    
+  </ul></samp></div>
+</details>
+
+<details>
+  <summary>📦 Misc</summary><br/>
+  <div><samp><ul>
+    <li><a href=https://github.com/governify/commons>Commons Library</a>: Governify Commons library implemented in each service.</li>
+    <li><a href=https://github.com/governify/dev-tools>Dev Tools</a>: Development tools for Governify.</li>
+    <li><a href=https://github.com/governify/time-logger>Grafana Time Logger</a>: Registry for the time spent viewing grafana dashboards.</li>
+    <li><a href=https://github.com/governify/esc-analyzer>ESC Analyzer</a>: Component for the Elastic Smart Contracts Infrastructure.</li>
+    <li><a href=https://github.com/governify/zh2h>ZenHub to GitHub</a>: Service to syncronize ZenHub kanban with GitHub projects.</li>
+    <li><a href=https://github.com/governify/base-node>Base Node</a>: Base Node.js image for Governify services.</li>
+  </ul></samp></div>
+</details>
+
+<details>
+  <summary>🖥 Showcases & Tutorials</summary><br/>
+  <div><samp><ul>
+    <li><a href=https://github.com/governify/audited-project-template>Audited Template</a>: Template project with valid info.yml.</li>
+    <li><a href=https://github.com/governify/showcase-psg2-2021>PSG2 Showcase</a>: Showcase for PSG2 subject from University of Seville (2021).</li>
+    <li><a href=https://github.com/governify/governify-examples>Examples</a>: Repository containing examples for the Governify Ecosystem.</li>
+  </ul></samp></div>
 </details>
